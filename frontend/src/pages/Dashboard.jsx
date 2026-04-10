@@ -4,7 +4,7 @@ import { getProducts, createProduct, updateProduct, deleteProduct } from '../ser
 import Navbar from '../components/Navbar';
 import { FiPlus, FiEdit2, FiTrash2, FiX, FiImage } from 'react-icons/fi';
 
-const API_BASE = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_BACKEND_URL || 'https://ejs.makoyot.xyz';
 
 function ProductModal({ product, onClose, onSaved }) {
   const [form, setForm] = useState({ name: '', description: '', price: '' });

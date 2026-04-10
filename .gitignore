@@ -5,3 +5,5 @@ uploads/products/*
 uploads/profiles/*
 !uploads/products/.gitkeep
 !uploads/profiles/.gitkeep
+backend/server.log
+backend/nohup.out

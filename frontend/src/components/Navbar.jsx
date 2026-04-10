@@ -11,7 +11,7 @@ export default function Navbar() {
     navigate('/login');
   };
 
-  const API_BASE = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+  const API_BASE = import.meta.env.VITE_BACKEND_URL || 'https://ejs.makoyot.xyz';
 
   return (
     <nav className="navbar">

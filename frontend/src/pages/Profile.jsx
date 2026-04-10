@@ -13,7 +13,7 @@ export default function Profile() {
   const [preview, setPreview] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+  const API_BASE = import.meta.env.VITE_BACKEND_URL || 'https://ejs.makoyot.xyz';
 
   useEffect(() => {
     const load = async () => {
